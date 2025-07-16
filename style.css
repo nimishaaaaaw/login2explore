@@ -1,0 +1,78 @@
+body{
+            font-family: "Inter", sans-serif;
+            background-color: #f7f7f7; /* Light grey background */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+        }
+        .container {
+            /* Removed fixed width to allow Bootstrap's responsiveness */
+            padding: 30px;
+            background-color: #ffffff;
+            border-radius: 15px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .form-control {
+            border-radius: 8px;
+            padding: 10px;
+            border: 1px solid #ddd;
+        }
+        .form-control:focus {
+            border-color: #e966c6; /* Kept previous pink focus color */
+            box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 8px rgba(102, 175, 233, .6);
+        }
+        .btn-rounded {
+            border-radius: 20px; /* More rounded buttons */
+            padding: 10px 25px;
+            font-weight: bold;
+            transition: all 0.3s ease;
+            margin: 0 5px; /* Spacing between buttons */
+        }
+        .btn-primary {
+            background-color: #ff0073; /* Pink */
+            border-color: #ff00b3; /* Darker pink border */
+        }
+        .btn-primary:hover {
+            background-color: #f13cb5; /* Lighter pink on hover */
+            border-color: #ed83bd; /* Lighter pink border on hover */
+        }
+        /* New styles for pinkish warning and danger buttons */
+        .btn-warning {
+            background-color: #ff69b4; /* Hot pink */
+            border-color: #ff1493; /* Deeper pink */
+            color: #fff; /* White text for contrast */
+        }
+        .btn-warning:hover {
+            background-color: #ff479e; /* Slightly darker hot pink on hover */
+            border-color: #e60073; /* Even deeper pink */
+        }
+        .btn-danger {
+            background-color: #ffc0cb; /* Light pink */
+            border-color: #ff69b4; /* Hot pink border */
+            color: #333; /* Dark text for contrast */
+        }
+        .btn-danger:hover {
+            background-color: #ffa0b0; /* Slightly darker light pink on hover */
+            border-color: #ff1493; /* Deeper pink */
+        }
+        /* Message Box Styling */
+        .message-box {
+            margin-top: 20px;
+            padding: 10px;
+            border-radius: 8px;
+            text-align: center;
+            font-weight: bold;
+            display: none; /* Hidden by default */
+        }
+        .message-box.success {
+            background-color: #d4edda;
+            color: #155724;
+            border: 1px solid #c3e6cb;
+        }
+        .message-box.error {
+            background-color: #f8d7da;
+            color: #721c24;
+            border: 1px solid #f5c6cb;
+        }
