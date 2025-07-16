@@ -1,21 +1,21 @@
 # login2explore
-Micro Project
+# Micro Project #
 
-Student Enrollment Form using JsonPowerDB
+## Student Enrollment Form using JsonPowerDB ##
 
->Table of Contents:
-Description
-Benefits of using JsonPowerDB
-Scope of Functionalities
-Examples of Use
-Project Status
-Release History
-Sources
-Illustrations
-Other Information
+### Table of Contents ###
+#### Description ####
+#### Benefits of using JsonPowerDB ####
+#### Scope of Functionalities ####
+#### Examples of Use ####
+#### Project Status ####
+#### Release History ####
+#### Sources ####
+#### Illustrations ####
+#### Other Information ####
 
->Description
-This project implements a dynamic Student Enrollment Form using HTML, Bootstrap, and JavaScript, leveraging the JsonPowerDB (JPDB) as its backend database. The form allows users to perform standard database operations (Create, Read, Update) for student records, with the "Roll Number" acting as a primary key. It demonstrates how to build a responsive web application with real-time data handling and a simplified development approach using JPDB.
+### Description ###
+#### This project implements a dynamic Student Enrollment Form using HTML, Bootstrap, and JavaScript, leveraging the JsonPowerDB (JPDB) as its backend database. The form allows users to perform standard database operations (Create, Read, Update) for student records, with the "Roll Number" acting as a primary key. It demonstrates how to build a responsive web application with real-time data handling and a simplified development approach using JPDB. ####
 
 >Benefits of using JsonPowerDB
 
