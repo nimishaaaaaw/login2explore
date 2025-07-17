@@ -17,7 +17,7 @@
 ### Description ###
 #### This project implements a dynamic Student Enrollment Form using HTML, Bootstrap, and JavaScript, leveraging the JsonPowerDB (JPDB) as its backend database. The form allows users to perform standard database operations (Create, Read, Update) for student records, with the "Roll Number" acting as a primary key. It demonstrates how to build a responsive web application with real-time data handling and a simplified development approach using JPDB. ####
 
-### Benefits of using JsonPowerDB ###
+Benefits of using JsonPowerDB
 *JsonPowerDB offers several key advantages that make it suitable for projects like this:
 *Real-time & High Performance: Provides instant data access and updates, ensuring a smooth user experience.
 *Lightweight & Simple to Use: Easy to integrate and manage, reducing the learning curve for developers.
