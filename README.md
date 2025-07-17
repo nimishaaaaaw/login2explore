@@ -17,14 +17,14 @@
 ### Description ###
 #### This project implements a dynamic Student Enrollment Form using HTML, Bootstrap, and JavaScript, leveraging the JsonPowerDB (JPDB) as its backend database. The form allows users to perform standard database operations (Create, Read, Update) for student records, with the "Roll Number" acting as a primary key. It demonstrates how to build a responsive web application with real-time data handling and a simplified development approach using JPDB. ####
 
-Benefits of using JsonPowerDB
-*JsonPowerDB offers several key advantages that make it suitable for projects like this:
-*Real-time & High Performance: Provides instant data access and updates, ensuring a smooth user experience.
-*Lightweight & Simple to Use: Easy to integrate and manage, reducing the learning curve for developers.
-*REST API Based: Simplifies data interaction through standard HTTP requests, compatible with any frontend technology.
-*Multi-mode DBMS: Supports various data models (like JSON Document DB and Key-value DB, implicitly used here), offering flexibility.
-*True Serverless Support: Eliminates the need for complex server-side programming and database administration, allowing frontend developers to build full-stack               applications with ease.
-*Low Development Cost & Faster Time to Market: Accelerates development cycles due to its simplified architecture and ready-to-use APIs.
+#### Benefits of using JsonPowerDB ####
+* JsonPowerDB offers several key advantages that make it suitable for projects like this:
+* Real-time & High Performance: Provides instant data access and updates, ensuring a smooth user experience.
+* Lightweight & Simple to Use: Easy to integrate and manage, reducing the learning curve for developers.
+* REST API Based: Simplifies data interaction through standard HTTP requests, compatible with any frontend technology.
+* Multi-mode DBMS: Supports various data models (like JSON Document DB and Key-value DB, implicitly used here), offering flexibility.
+* True Serverless Support: Eliminates the need for complex server-side programming and database administration, allowing frontend developers to build full-stack               applications with ease.
+* Low Development Cost & Faster Time to Market: Accelerates development cycles due to its simplified architecture and ready-to-use APIs.
 
 >Scope of Functionalities:
 
