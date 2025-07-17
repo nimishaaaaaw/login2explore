@@ -17,7 +17,7 @@
 ### Description ###
 #### This project implements a dynamic Student Enrollment Form using HTML, Bootstrap, and JavaScript, leveraging the JsonPowerDB (JPDB) as its backend database. The form allows users to perform standard database operations (Create, Read, Update) for student records, with the "Roll Number" acting as a primary key. It demonstrates how to build a responsive web application with real-time data handling and a simplified development approach using JPDB. ####
 
-#### Benefits of using JsonPowerDB ####
+#### Benefits of using JsonPowerDB: ####
 * JsonPowerDB offers several key advantages that make it suitable for projects like this:
 * Real-time & High Performance: Provides instant data access and updates, ensuring a smooth user experience.
 * Lightweight & Simple to Use: Easy to integrate and manage, reducing the learning curve for developers.
@@ -26,22 +26,22 @@
 * True Serverless Support: Eliminates the need for complex server-side programming and database administration, allowing frontend developers to build full-stack               applications with ease.
 * Low Development Cost & Faster Time to Market: Accelerates development cycles due to its simplified architecture and ready-to-use APIs.
 
->Scope of Functionalities:
+#### Scope of Functionalities: ####
 
 The Student Enrollment Form provides the following core functionalities:
--Form Initialization: On page load or after any operation, the form resets to an empty state, with the "Roll Number" field enabled and focused, while other fields and buttons are disabled.
--Roll Number Lookup (findRoll):
+- Form Initialization: On page load or after any operation, the form resets to an empty state, with the "Roll Number" field enabled and focused, while other fields and buttons are disabled.
+- Roll Number Lookup (findRoll):
 When a user enters a "Roll Number" and tabs out, the system checks if the ID exists in the "STUDENT-TABLE" relation in "SCHOOL-DB".
--If ID does NOT exist: Enables "Full Name", "Class", "Birth Date", "Address", "Enrollment Date" fields, and the [Save] and [Reset] buttons. The cursor moves to "Full Name".
--If ID EXISTS: Displays the existing student's data in the form, disables the "Roll Number" field, enables other fields for modification, and enables the [Update] and [Reset] buttons. The cursor moves to "Full Name".
--Data Validation (validateData): Ensures all required fields are non-empty and numeric fields (like "Class") contain valid, non-negative numbers before saving or updating. Provides user-friendly messages for missing/invalid data.
--Save Data (saveData):
+- If ID does NOT exist: Enables "Full Name", "Class", "Birth Date", "Address", "Enrollment Date" fields, and the [Save] and [Reset] buttons. The cursor moves to "Full Name".
+- If ID EXISTS: Displays the existing student's data in the form, disables the "Roll Number" field, enables other fields for modification, and enables the [Update] and [Reset] buttons. The cursor moves to "Full Name".
+- Data Validation (validateData): Ensures all required fields are non-empty and numeric fields (like "Class") contain valid, non-negative numbers before saving or updating. Provides user-friendly messages for missing/invalid data.
+- Save Data (saveData):
 Stores new student records in the database using a PUT operation (which acts as an upsert based on the Roll Number primary key).
 Resets the form to its initial state upon successful save.
--Update Data (updateData):
+- Update Data (updateData):
 Modifies existing student records using the SET command (specifically an UPDATE type operation) with the stored rec_no from the initial lookup.
 Resets the form to its initial state upon successful update.
--Reset Form (resetForm): Clears all form fields, re-enables the "Roll Number" field, disables other fields and all control buttons, and sets focus back to "Roll Number".
+- Reset Form (resetForm): Clears all form fields, re-enables the "Roll Number" field, disables other fields and all control buttons, and sets focus back to "Roll Number".
 User Feedback: Utilizes a custom message box to display success or error messages to the user, avoiding disruptive alert() pop-ups.
 
 >Examples of Use:
